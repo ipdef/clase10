@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-flow: row wrap; }
+  body header {
+    width: 100%;
+    height: 100px;
+    background-color: #0a0a0a; }
+    body header div {
+      font-size: 90px;
+      color: #fff;
+      text-align: center; }
+
+nav {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  border-right: 2px solid #000; }
+  nav ul li {
+    display: flex;
+    list-style: none;
+    align-items: none;
+    font-size: 20px; }
+  nav ul li:hover {
+    border: 2px solid #000;
+    color: #2680ca; }
+
+main {
+  padding: 40px;
+  width: 60%; }
+  main section article {
+    padding-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center; }
+    main section article img {
+      width: 100%;
+      height: 370px;
+      border: 2px solid #000; }
+
+aside {
+  padding: 40px;
+  width: 30%;
+  border-left: 2px solid #000; }
+  aside div .imagen {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px; }
+
+footer {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background: linear-gradient(109.6deg, #3b3635 11.2%, #2b2929 91.1%);
+  color: #fff;
+  padding-top: 15px;
+  font-size: 30px; }
+
+/*# sourceMappingURL=estilos.css.map */

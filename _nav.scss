@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border-right: 2px solid #000;
+    
+    ul li{
+        display: flex;
+        list-style: none;
+        align-items: none;
+        font-size: 20px;
+    }
+    & ul li:hover{
+        border: 2px solid #000;
+        color: rgb(38, 128, 202);
+        
+    }
+}
